@@ -23,6 +23,9 @@ class BlogPostsController < ApplicationController
         end 
     end
 
+    def edit
+    end
+    
     private
 
     def blog_post_params
