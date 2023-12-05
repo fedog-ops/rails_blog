@@ -1,2 +1,7 @@
-<h1> <%= @blog_post.title %> </h1>
+
+</br>
+<h2> <%= @blog_post.title %> </h2>
 <%= @blog_post.body %>
+<br/>
+</br>
+<button> <%= link_to 'Edit', "#{@blog_post.id}/edit" %> </button>
